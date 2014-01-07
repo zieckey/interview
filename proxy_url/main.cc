@@ -40,11 +40,19 @@ void test_ProxUrlExtractor_Extract1()
             fprintf(stderr, "test failed [%s]\n", test_data[i][0].data());
             all_test_ok = false;
         }
+        else 
+        {
+            fprintf(stderr, "test OK [%s]\n", test_data[i][0].data());
+        }
     }
 
     if (all_test_ok)
     {
         printf("%s All test OK!\n", __FUNCTION__);
+    }
+    else 
+    {
+        printf("%s test failed!\n", __FUNCTION__);
     }
 }
 
@@ -118,6 +126,10 @@ void test_ProxUrlExtractor_Extract2()
         if (ProxyURLExtractor::Extract(keys, test_data[i][0]) != test_data[i][1]) {
             fprintf(stderr, "test failed [%s]\n", test_data[i][0].data());
             all_test_ok = false;
+        }
+        else 
+        {
+            fprintf(stderr, "test OK [%s]\n", test_data[i][0].data());
         }
     }
 
