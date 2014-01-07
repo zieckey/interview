@@ -12,7 +12,7 @@ namespace url
     /**
      * \brief 代理url提取类
      *  针对当前互联网恶意网址作者利用302跳转url或翻译类url的漏洞来绕过传统杀毒软件
-     * 详情参考：http://3g.hebei.com.cn/system/2014/01/06/013162824.shtml
+     * 详情参考新闻链接：http://3g.hebei.com.cn/system/2014/01/06/013162824.shtml
      */
     class ProxyURLExtractor
     {
