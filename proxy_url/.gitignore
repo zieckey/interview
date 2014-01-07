@@ -2,6 +2,7 @@
 *.d
 *.o
 unittest_proxy_url
-.ncb
-.suo
-.vcproj.*.user
+*.ncb
+*.suo
+*.vcproj.*.user
+Debug
