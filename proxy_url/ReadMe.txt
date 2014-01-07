@@ -20,7 +20,14 @@ http://localhost/query.php?name=360&address=beijing
 请实现这个函数：
 	void ProxyURLExtractor::Extract( const KeyItems& keys, const std::string& raw_url, std::string& sub_url )
 	使得所有的单元测试都通过。
-	
+
+考察点：
+	-	核心功能完备
+	-	异常分支流程处理正确
+	-	构建更多单元测试
+	-	尽量优化性能
+	-	最好能性能分析报告(gprofile or google profile)
+
 实现完成之后，将工程代码打包(注意包文件名上带上自己的姓名)发给我们，并回答下面的几个问题：
 1. 算法的时间复杂度
 2. 算法的空间复杂度
