@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <string>
 
-namespace url
+namespace qh
 {
     typedef unsigned int u32;
     typedef int s32;
@@ -420,7 +420,7 @@ namespace url
     }
 
 
-};//end of namespace url
+};//end of namespace qh
 
 #endif // #ifdef _OSLIB_TOKENER_H_
 

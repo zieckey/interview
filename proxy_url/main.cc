@@ -11,7 +11,7 @@
 
 void test_ProxUrlExtractor_Extract1()
 {
-    using namespace url;
+    using namespace qh;
     ProxyURLExtractor::KeyItems keys;
     keys.insert("a");
     keys.insert("u");
@@ -62,7 +62,7 @@ void test_ProxUrlExtractor_Extract1()
 
 void test_ProxUrlExtractor_Extract2()
 {
-    using namespace url;
+    using namespace qh;
     ProxyURLExtractor::KeyItems keys;
     keys.insert("a");
     keys.insert("u");

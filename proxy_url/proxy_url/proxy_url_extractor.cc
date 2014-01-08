@@ -4,7 +4,7 @@
 #include <vector>
 #include "tokener.h"
 
-namespace url
+namespace qh
 {
 
     namespace {

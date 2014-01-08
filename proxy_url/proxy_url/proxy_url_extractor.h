@@ -6,7 +6,7 @@
 #include <set>
 #include <set>
 
-namespace url
+namespace qh
 {
 
     /**
