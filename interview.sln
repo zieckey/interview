@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxy_url", "proxy_url\prox
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string", "string\string.vcproj", "{E255957D-F047-482B-9D6D-4259B1A8CA0B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector", "vector\vector.vcproj", "{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{E255957D-F047-482B-9D6D-4259B1A8CA0B}.Debug|Win32.Build.0 = Debug|Win32
 		{E255957D-F047-482B-9D6D-4259B1A8CA0B}.Release|Win32.ActiveCfg = Release|Win32
 		{E255957D-F047-482B-9D6D-4259B1A8CA0B}.Release|Win32.Build.0 = Release|Win32
+		{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}.Debug|Win32.Build.0 = Debug|Win32
+		{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}.Release|Win32.ActiveCfg = Release|Win32
+		{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

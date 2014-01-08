@@ -3,30 +3,59 @@
 
 namespace qh
 {
-    class string {
+    template<class T>
+    class vector {
     public:
         //ctor
-        string();
-        string(const char* s);
-        string(const char* s, size_t len);
-        string(const string& rhs);
+        vector()
+            : data_(NULL), size_(0)
+        {
+        }
 
-        string& operator=(const string& rhs);
+        explicit vector( size_t n, const T& value = T())
+        {
+            data_ = new T[n];
+            for (size_t i = 0; i < n; i++)
+            {
+                data_[0] = value;
+            }
+        }
+
+        vector<T>& operator=(const vector<T>& rhs)
+        {
+            data_ = rhs.data_;
+            size_ = rhs.size_;
+        }
 
         //dtor
-        ~string();
+        ~vector()
+        {
+            if (data_)
+            {
+                delete data_;
+            }
+        }
 
         //get
-        size_t size() const;
-        const char* data() const;
-        const char* c_str() const;
+        size_t size() const
+        {
+            return size_;
+        }
 
         // set & get
-        char* operator[](size_t index);
+        T& operator[](size_t index);
+
+        // set
+        void push_back(const T& element);
+        void pop_back(const T& element);
+        void resize();
+        void reserve();
+        void clear();
+        void empty();
 
     private:
-        char*  data_;
-        size_t len_;
+        T*      data_;
+        size_t  size_;
     };
 }
 

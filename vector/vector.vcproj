@@ -174,10 +174,6 @@
 				RelativePath=".\main.cc"
 				>
 			</File>
-			<File
-				RelativePath=".\qh_vector.cc"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="Í·ÎÄ¼þ"
@@ -194,4 +190,6 @@
 			>
 		</File>
 	</Files>
+	<Globals>
+	</Globals>
 </VisualStudioProject>
