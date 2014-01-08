@@ -1,6 +1,8 @@
 #ifndef QIHOO_STRING_H_
 #define QIHOO_STRING_H_
 
+#include <stdlib.h>
+
 namespace qh
 {
     class string {
