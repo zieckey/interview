@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 #include "proxy_url/proxy_url_extractor.h"
 
 #define H_ARRAYSIZE(a) \

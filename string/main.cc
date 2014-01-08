@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "qh_string.h"
 
