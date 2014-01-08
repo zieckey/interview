@@ -7,7 +7,7 @@ namespace qh
     // TODO 将在这里写实现代码
 
     string::string()
-        : data_(""), len_(0)
+        : data_(NULL), len_(0)
     {
     }
 
