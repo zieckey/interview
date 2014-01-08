@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string", "string\string.vcp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector", "vector\vector.vcproj", "{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ini_parser", "ini_parser\ini_parser.vcproj", "{0015C9A5-4461-4B65-912C-B098E377C004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}.Debug|Win32.Build.0 = Debug|Win32
 		{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}.Release|Win32.ActiveCfg = Release|Win32
 		{367BF36F-0FF1-44B7-B516-B8573FDC2FF2}.Release|Win32.Build.0 = Release|Win32
+		{0015C9A5-4461-4B65-912C-B098E377C004}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0015C9A5-4461-4B65-912C-B098E377C004}.Debug|Win32.Build.0 = Debug|Win32
+		{0015C9A5-4461-4B65-912C-B098E377C004}.Release|Win32.ActiveCfg = Release|Win32
+		{0015C9A5-4461-4B65-912C-B098E377C004}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

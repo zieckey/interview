@@ -1,5 +1,5 @@
-#ifndef QIHOO_STRING_H_
-#define QIHOO_STRING_H_
+#ifndef QIHOO_VECTOR_H_
+#define QIHOO_VECTOR_H_
 
 namespace qh
 {
