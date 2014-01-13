@@ -2,6 +2,7 @@
 #define URL_TOKENER_H_
 
 #include <assert.h>
+#include <string.h>
 #include <string>
 
 namespace qh
