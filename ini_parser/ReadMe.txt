@@ -13,7 +13,7 @@ const std::string& a = parser.Get("a", NULL);
 assert(a == "1");
 
 std::string b = parser.Get("a", NULL);
-assert(b == "s");
+assert(b == "2");
 
 const std::string& c = parser.Get("c", NULL);
 assert(c == "");
