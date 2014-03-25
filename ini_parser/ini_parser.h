@@ -16,7 +16,11 @@ namespace qh
         //! \return - bool
         bool Parse(const std::string& ini_file_path);
 
-        //! \brief 解析一段形如INI格式的内存数据
+        //! \brief 解析一段形如INI格式的内存数据。
+        //!   例如：ini_data="a:1||b:2||c:3"
+        //!         调用<code>Parse(ini_data, ini_data_len, "||", ":")</code>即可解析出这段数据。
+        //!         解析完毕之后 
+        //!         Get("a")=="1" && Get("b")=="2" && Get("c")=="3"
         //! \param[in] - const char * ini_data
         //! \param[in] - size_t ini_data
         //! \param[in] - const std::string & line_seperator
