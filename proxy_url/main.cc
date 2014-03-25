@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 
 #include "proxy_url/proxy_url_extractor.h"
 
@@ -40,12 +41,13 @@ void test_ProxUrlExtractor_Extract1()
     for (size_t i = 0; i < H_ARRAY_SIZE(test_data); i++)
     {
         if (ProxyURLExtractor::Extract(keys, test_data[i][0]) != test_data[i][1]) {
-            fprintf(stderr, "test failed [%s]\n", test_data[i][0].data());
+            //fprintf(stderr, "test failed [%s]\n", test_data[i][0].data());
             all_test_ok = false;
+            assert(false);
         }
         else 
         {
-            fprintf(stderr, "test OK [%s]\n", test_data[i][0].data());
+            //fprintf(stderr, "test OK [%s]\n", test_data[i][0].data());
         }
     }
 
@@ -129,10 +131,11 @@ void test_ProxUrlExtractor_Extract2()
         if (ProxyURLExtractor::Extract(keys, test_data[i][0]) != test_data[i][1]) {
             fprintf(stderr, "test failed [%s]\n", test_data[i][0].data());
             all_test_ok = false;
+            assert(false);
         }
         else 
         {
-            fprintf(stderr, "test OK [%s]\n", test_data[i][0].data());
+            //fprintf(stderr, "test OK [%s]\n", test_data[i][0].data());
         }
     }
 
