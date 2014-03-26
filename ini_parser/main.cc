@@ -40,7 +40,7 @@ void test2()
 
 void test3()
 {
-    const char* ini_text= "|||a:1||b:2||||c:3||||||"; 
+    const char* ini_text= "||||a:1||b:2||||c:3||||||"; 
     qh::INIParser parser;
     if (!parser.Parse(ini_text, strlen(ini_text), "||", ":")) {
         assert(false);
