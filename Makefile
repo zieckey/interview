@@ -5,7 +5,7 @@
 #
 
 		
-SUBDIRS := ini_parser proxy_url  string  vector
+SUBDIRS := proxy_url  string  vector climber_problem ini_parser 
 
 all: 
 	for t in $(SUBDIRS); do $(MAKE) -C $$t ; done

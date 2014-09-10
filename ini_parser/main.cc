@@ -1,5 +1,6 @@
 #include "ini_parser.h"
 
+#include <string.h>
 #include <assert.h>
 
 void test1()

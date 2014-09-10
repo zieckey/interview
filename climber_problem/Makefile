@@ -9,7 +9,7 @@ SRCS := $(wildcard *.cc)
 OBJS := $(patsubst %.cc, %.o, $(SRCS))
 DEPS := $(patsubst %.o, %.d, $(OBJS))
 
-TARGET=climber
+TARGET=unittest_climber
 
 all : $(TARGET) 
 
