@@ -22,9 +22,9 @@ climber_problem/proxy_url/string/vector这几个项目都非常基础，
 以确保提交给我们的代码能在我们的开发机上顺利编译和运行。
 
 请注意编程风格和编码细节，这方面可以参考下列书籍和资料：
-a) 编写可读代码的艺术 http://book.douban.com/subject/10797189/
-b) 代码大全(2) http://book.douban.com/subject/1477390/
-c) Google C++ 编码规范
+    a) 《编写可读代码的艺术》 http://book.douban.com/subject/10797189/
+    b) 《代码大全》 http://book.douban.com/subject/1477390/
+    c) 《Google C++ 编码规范》
 
 请认真对待。
 
